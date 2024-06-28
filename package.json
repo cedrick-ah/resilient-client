@@ -1,10 +1,10 @@
 {
     "name": "resilient-client",
     "version": "0.0.1",
-    "description": "A TypeScript node package starter code",
+    "description": "A resilience http client",
     "repository": {
         "type": "git",
-        "url": "https://github.com/KryptaPay/ts-node-pckg-starter"
+        "url": "https://github.com/cedrick-ah/ts-node-pckg-starter"
     },
     "author": "cedrick-ah",
     "license": "MIT",
