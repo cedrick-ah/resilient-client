@@ -1,6 +1,6 @@
 {
     "name": "resilient-client",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "A TypeScript node package starter code",
     "repository": {
         "type": "git",
