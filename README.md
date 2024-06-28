@@ -11,7 +11,7 @@ npm i resilient-client
 ## Usage
 
 ```
-import ResilientClient from "../index.ts";
+import ResilientClient from "resilient-client";
 
 const client = new ResilientClient({ timeout: 10000 });
 
