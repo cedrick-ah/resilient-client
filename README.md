@@ -1,6 +1,6 @@
 # resilient-client
 
-A resilience http client, fail and recover fast. This package is in bêta. Contributions are welcome.
+A resilience http client, fail and recover fast. This package is in beta. Contributions are welcome.
 
 ## Installation
 
