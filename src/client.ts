@@ -11,7 +11,7 @@ class Client {
         this._breaker = null;
     }
 
-    fetch = (requestConfig: AxiosRequestConfig, fb?: () => any) => {
+    fetch = (requestConfig: AxiosRequestConfig) => {
         const abortController = new AbortController();
         const circuitBreakerOptions = {
             abortController,
@@ -27,7 +27,6 @@ class Client {
             this._breaker = breaker;
         }
 
-        fb && breaker.fallback(fb);
         return breaker.fire(circuitBreakerOptions.abortController.signal);
     };
 }
