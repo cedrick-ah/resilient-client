@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/cedrick-ah/resilient-client/compare/v0.0.5...v0.0.6) (2024-08-05)
+
+
+### Bug Fixes
+
+* removed fallback ([987a03b](https://github.com/cedrick-ah/resilient-client/commit/987a03be252a1f98326f0acbedca0b09450e3302))
+
 ### [0.0.5](https://github.com/cedrick-ah/resilient-client/compare/v0.0.4...v0.0.5) (2024-07-08)
 
 
