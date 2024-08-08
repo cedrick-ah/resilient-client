@@ -20,8 +20,7 @@ client
         {
             method: "get",
             url: "url",
-        },
-        () => "Sorry, out of service right now"
+        }
     )
     .then(console.log)
     .catch(console.error);
